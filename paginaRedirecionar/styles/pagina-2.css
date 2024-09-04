@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
     padding: 0;
 }
@@ -7,41 +7,56 @@ body {
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin: 5% auto;
+    margin:2em auto;
+    height: auto;
 }
 
-.apresentacao__imagem {
-    width: 50%;
+.apresentacao__imagem{
+    margin-bottom: 3em;
     align-self: center;
-    margin-bottom: 2em;
     
+}
+
+img {
+    width: 70%;
 }
 
 .apresentacao__conteudo {
-    
     align-self: center;
     text-align: center;
     font-size: 20px;
 }
 
-
-.apresentacao__botoes button {
-    padding: 1em;
-    border-radius: 1em;
-    border: none;
+.apresentacao__paragrafo {
+    margin-bottom: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.apresentacao__botao_colorido {
+.apresentacao__botoes button {
+    border-radius: 1em;
+    border: none;
+    margin-left: 10px;
+}
+
+.apresentacao__botao_colorido{
     background-color: #FF6064;
+    padding: 1em 2em;
     
+}
+
+#botao_cinza {
+    padding: 1em;
+    background-color: gainsboro;
 }
 
 .apresentacao__botao_avancar {
     margin-top: 2em;
-    padding: .8em 10em;
+    padding: 1em 8em;
     border-radius: 1.5em;
     text-align: center;
     background-color: #FF6064;
     color: white;
     border: none;
+    width: 40%;
+    align-self: center;
 }
