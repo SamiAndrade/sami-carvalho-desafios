@@ -3,22 +3,27 @@
     padding: 0;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .apresentacao {
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin:2em auto;
+    margin: 2em auto;
     height: auto;
 }
 
 .apresentacao__imagem{
+    margin-top: 1em;
     margin-bottom: 3em;
     align-self: center;
     
 }
 
 img {
-    width: 70%;
+    width: 60%;
 }
 
 .apresentacao__conteudo {
@@ -29,7 +34,6 @@ img {
 
 .apresentacao__paragrafo {
     margin-bottom: 1em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .apresentacao__botoes button {
@@ -44,14 +48,14 @@ img {
     
 }
 
-#botao_cinza {
+.botao_cinza {
     padding: 1em;
     background-color: gainsboro;
 }
 
 .apresentacao__botao_avancar {
     margin-top: 2em;
-    padding: 1em 8em;
+    padding: 1em 2em;
     border-radius: 1.5em;
     text-align: center;
     background-color: #FF6064;
@@ -59,4 +63,5 @@ img {
     border: none;
     width: 40%;
     align-self: center;
+    text-decoration: none;
 }
