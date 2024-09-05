@@ -2,6 +2,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
 }
 
 .apresentacao {
@@ -10,9 +12,7 @@
     width: 50%;
     margin: 2em auto;
     height: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 .apresentacao__titulo {
     text-align: center;
     margin-bottom: 3em;
@@ -22,17 +22,23 @@
     align-self: center;
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
+    gap: 2em;
     text-align: center;
 }
 
+.apresentacao__paragrafo {
+    margin: 1.5em 0;
+}
+
 .apresentacao__botao_login {
-    padding: 0.5em 1em;
-    border: 2px solid #4b4949;
+    padding: 0.8em 6em;
     border-radius: 1.5em;
     text-decoration: none;
+    background-color: #FF6064;
+    color: white;
 }
 
 .apresentacao__cadastro {
     text-decoration: none;
+    color: #FF6064;
 }
