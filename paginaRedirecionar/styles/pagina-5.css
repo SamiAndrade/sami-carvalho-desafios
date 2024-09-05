@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 2em auto;
+    height: auto;
+}
+
+.apresentacao__titulo {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.apresentacao__botoes_login {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    text-align: center;
+}
+
+.apresentacao__botao_login {
+    padding: 0.5em 1em;
+    border: 2px solid #000000;
+    border-radius: 1.5em;
+}
