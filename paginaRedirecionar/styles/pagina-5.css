@@ -10,6 +10,7 @@
     width: 50%;
     margin: 2em auto;
     height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .apresentacao__titulo {
@@ -27,6 +28,11 @@
 
 .apresentacao__botao_login {
     padding: 0.5em 1em;
-    border: 2px solid #000000;
+    border: 2px solid #4b4949;
     border-radius: 1.5em;
+    text-decoration: none;
+}
+
+.apresentacao__cadastro {
+    text-decoration: none;
 }
