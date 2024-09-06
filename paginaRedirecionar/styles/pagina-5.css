@@ -13,6 +13,22 @@
     margin: 2em auto;
     height: auto;
 }
+
+.seta img{
+    width: 5%;
+    text-decoration: none;
+    color: black;
+}
+
+.seta {
+    display: flex;
+    flex-direction: column;
+}
+
+.seta:hover {
+    filter: invert(49%) sepia(100%) saturate(747%) hue-rotate(-35deg) brightness(93%) contrast(93%);
+}
+
 .apresentacao__titulo {
     text-align: center;
     margin-bottom: 3em;
