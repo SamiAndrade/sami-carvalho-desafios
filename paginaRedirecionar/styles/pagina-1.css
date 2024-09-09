@@ -1,9 +1,12 @@
 
-body {
+* {
     margin: 0;
     padding: 0;
+}
+
+
+body {
     background-color: #FF6064;
-    ;
 }
 
 .apresentacao {
@@ -27,4 +30,38 @@ body {
 
 img {
     width: 35%;
+
 }
+@media (min-width: 375px) {
+     * {
+        margin: 0;
+         padding: 0;
+      }
+            
+     body {
+         background-color: #FF6064;
+     }
+        
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 8em;
+        margin: 2.35em auto;
+     }
+            
+    .apresentacao__logo {
+        text-align: center;
+    }
+            
+    .apresentacao__loading {
+        text-align: center;
+        width: 25%;
+        margin: auto;
+    }
+            
+    img {
+        width: 35%;
+         }
+        }
