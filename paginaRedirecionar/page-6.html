@@ -12,25 +12,30 @@
             <img src="/paginaRedirecionar/img/logo-pomo 1.png" alt="Logo site">
             <div class="apresentacao__formulario">
                 <h2 class="apresentacao__titulo">Create your account</h2>
-                <form action="" method="" class="apresentacao__conteudo_formulario">
+                <form id="formulario__cadastro" class="apresentacao__conteudo_formulario">
                     <div class="apresentacao__formulario_dados">
-                        <label for="">Name</label>
-                        <input type="text" name="username" placeholder="Name">
-                        <label for="">E-mail</label>
-                        <input type="email" name="email" placeholder="E-mail">
-                        <label for="">Password</label>
-                        <input type="password" name="senha" placeholder="Password">
-                        <label for="">Confirm Password</label>
-                        <input type="password" name="senha" placeholder="Confirm Password">
+                        <label for="username"> Name</label>
+                        <input type="text" id="username" name="username" placeholder="Name">
+                        
+                        <label for="email"> E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="E-mail">
+                        
+                        <label for="password"> Password</label>
+                        <input type="password" id="password" name="password" placeholder="Password">
+                        
+                        <label for="confirmPassword"> Confirm Password</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
                     </div>
+                    
                     <div class="apresentacao__botoes_form">
-                        <input type="submit" class="apresentacao__botao_voltar" value="Go Back">
+                        <a href="page-5.html" class="apresentacao__botao_voltar">Go Back</a>
                         <input type="submit" class="apresentacao__botao_cadastro" value="Create Account">
                     </div>
-                </form>
+                </form>   
+                <p id="mensagem__erro"></p>
             </div>
         </div>
     </main>
-    <script></script>
+    <script src="form.js"></script>
 </body>
 </html>
