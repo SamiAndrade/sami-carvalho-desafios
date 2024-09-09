@@ -204,7 +204,7 @@ input {
     }
     
     .apresentacao img {
-        width: 45%;
+        width: 35%;
     }
     
     .apresentacao__titulo {
@@ -217,7 +217,7 @@ input {
     
     .apresentacao__formulario {
         background-color: white;
-        padding: 4em 6em;
+        padding: 5em 6em;
         border-radius: 1.5em;
     }
     
@@ -232,7 +232,7 @@ input {
         display: flex;
         flex-direction: column;
         margin-bottom: 2em;
-        padding: 1.5em 6em;
+        padding: 1em 8em;
     }
     
     label {
@@ -245,11 +245,11 @@ input {
     
     .apresentacao__botoes_form {
         display: flex;
-        gap: 1em;
+        gap: 2em;
     }
     
     .apresentacao__botao_voltar {
-        padding: 1em 3em;
+        padding: 1em 4.5em;
         border: 2px solid rgb(62, 58, 58);
         background-color: white;
         cursor: pointer;
@@ -262,7 +262,7 @@ input {
         background-color: #FF6064;
         color: white;
         border: none;
-        padding: 1em 1.75em;
+        padding: 1em 3.25em;
         cursor: pointer;
     }
     
