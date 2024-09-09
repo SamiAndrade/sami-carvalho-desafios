@@ -48,7 +48,7 @@ img {
         width: 100%;
         height: auto;
         gap: 8em;
-        margin: 2.35em auto;
+        margin: 9em auto;
      }
             
     .apresentacao__logo {
@@ -57,12 +57,12 @@ img {
             
     .apresentacao__loading {
         text-align: center;
-        width: 25%;
+        width: 35%;
         margin: auto;
     }
             
     img {
-        width: 35%;
+        width: 45%;
          }
         }
 
