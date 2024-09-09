@@ -5,16 +5,22 @@
 
 body{
     background-color: #FF6064;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .apresentacao {
+    width: 80%;
+    max-height: 100%;
     display: flex;
     justify-content: space-around;
-    margin: 125px auto;
+    margin: 65px auto;
+    gap: 10em;
+    justify-content: center;
+    align-items: center;
 }
 
 .apresentacao img {
-    width: 35%;
+    width: 45%;
 }
 
 .apresentacao__titulo {
@@ -30,17 +36,21 @@ body{
 }
 
 .apresentacao__conteudo_formulario{
-    align-self: center;
     margin-top: 2.5em;
     display: flex;
     flex-direction: column;
+    text-align: start;
 }
 
 .apresentacao__formulario_dados input{
     display: flex;
     flex-direction: column;
     margin-bottom: 2em;
-    padding: 0.5em 4.5em;
+    padding: 1em 5em;
+}
+
+label {
+    margin-left: 0.8em;
 }
 
 input {
@@ -57,6 +67,9 @@ input {
     border: 2px solid rgb(62, 58, 58);
     background-color: white;
     cursor: pointer;
+    border-radius: 1.5em;
+    text-decoration: none;
+    color: black;
 }
 
 .apresentacao__botao_cadastro {
@@ -65,4 +78,199 @@ input {
     border: none;
     padding: 1em 1.75em;
     cursor: pointer;
+}
+
+.apresentacao__botao_cadastro:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+#mensagem__erro {
+    color: red;
+}
+
+@media (min-width: 375px) {
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        background-color: #FF6064;
+        font-family: "Inter", system-ui;
+        font-weight: 400;
+    }
+    
+    .apresentacao {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0.75em auto 0.75em auto;
+        gap: 1em;
+        align-items: center;
+    }
+    
+    .apresentacao img {
+        width: 35%;
+    }
+    
+    .apresentacao__titulo {
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    .apresentacao__formulario {
+        background-color: white;
+        padding: 10px 36px;
+        border-radius: 1.5em;
+    }
+    
+    .apresentacao__conteudo_formulario{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        font-size: 14px;
+    }
+    
+    .apresentacao__formulario_dados input{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1em;
+        padding: 0.75em 5em;
+    }
+    
+    label {
+        margin-left: 0.8em;
+    }
+    
+    input {
+        border-radius: 1.5em;
+    }
+    
+    .apresentacao__botoes_form {
+        display: flex;
+        gap: 0.5em;
+    }
+    
+    .apresentacao__botao_voltar {
+        padding: 1em 3.25em;
+        border: 2px solid rgb(62, 58, 58);
+        background-color: white;
+        cursor: pointer;
+        border-radius: 1.5em;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .apresentacao__botao_cadastro {
+        background-color: #FF6064;
+        color: white;
+        border: none;
+        padding: 1em 2.25em;
+        cursor: pointer;
+    }
+    
+    .apresentacao__botao_cadastro:hover {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+    }
+    
+    #mensagem__erro {
+        color: red;
+    }
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        background-color: #FF6064;
+        font-family: "Inter", system-ui;
+    }
+    
+    .apresentacao {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 14em auto;
+        gap: 10em;
+    }
+    
+    .apresentacao img {
+        width: 45%;
+    }
+    
+    .apresentacao__titulo {
+        margin-top: 0.5em;
+        margin-bottom: 1.5em;
+        text-align: center;
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+    
+    .apresentacao__formulario {
+        background-color: white;
+        padding: 4em 6em;
+        border-radius: 1.5em;
+    }
+    
+    .apresentacao__conteudo_formulario{
+        margin-top: 2.5em;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+    
+    .apresentacao__formulario_dados input{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2em;
+        padding: 1.5em 6em;
+    }
+    
+    label {
+        margin-left: 0.8em;
+    }
+    
+    input {
+        border-radius: 1.5em;
+    }
+    
+    .apresentacao__botoes_form {
+        display: flex;
+        gap: 1em;
+    }
+    
+    .apresentacao__botao_voltar {
+        padding: 1em 3em;
+        border: 2px solid rgb(62, 58, 58);
+        background-color: white;
+        cursor: pointer;
+        border-radius: 1.5em;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .apresentacao__botao_cadastro {
+        background-color: #FF6064;
+        color: white;
+        border: none;
+        padding: 1em 1.75em;
+        cursor: pointer;
+    }
+    
+    .apresentacao__botao_cadastro:hover {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+    }
+    
+    #mensagem__erro {
+        color: red;
+    }
 }
